@@ -12,6 +12,7 @@ pipeline {
             steps {
                    sh'''
                      cd java-proj-sprng
+                      mvn test
                      mvn package
                      '''
              
